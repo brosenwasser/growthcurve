@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 import pyfits
 from pyraf import iraf
+=======
+  import pyfits
+  from pyraf import iraf
+  iraf.noao(_doprint=0)
+  iraf.obsutil(_doprint=0)
+  iraf.daophot(_doprint=0)
+>>>>>>> b430228600a5deb0a6adf8d2b1b2a102520d033c
   # what is this filter for?
   #ref_filter = np.loadtxt(target_dir + '/s_extraction/ref_filter.txt', unpack=True,  dtype='str')
 
