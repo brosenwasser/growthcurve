@@ -12,7 +12,7 @@ iraf.apphot(_doprint=0)
   # ref_image = [image for image in imlist if ref_filter in image][0]
   
   #for the test run just assign it
-ref_image = acs_I_030mas_040_sci.fits
+ref_image = 'acs_I_030mas_040_sci.fits'
   
   # Set the necessary variables for photometry on the reference image
 ref_exptime = pyfits.getheader(ref_image)['EXPTIME']
