@@ -1,3 +1,4 @@
+import os
 os.chdir(~/iraf)
 import pyfits
 from pyraf import iraf
