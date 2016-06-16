@@ -41,5 +41,4 @@ iraf.photpars.apertures = '1.0,3.0,5.0,7.0,9.0,11.0,13.0,15.0,17.0,19.0,21.0,23.
     
     
     # run phot for the image
-iraf.phot(ref_image, gals_coo, gals_mag)
-
+iraf.phot(ref_image, gals_coo,gals_mag)
