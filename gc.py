@@ -1,3 +1,4 @@
+os.chdir(~/iraf)
 import pyfits
 from pyraf import iraf
 iraf.noao(_doprint=0)
@@ -11,6 +12,8 @@ iraf.apphot(_doprint=0)
   # Finds the full path of reference image from the filter
   # ref_image = [image for image in imlist if ref_filter in image][0]
   
+#change directory to growthcurve
+os.chdir(~/Desktop/growthcurve)
   #for the test run just assign it
 ref_image = 'acs_I_030mas_040_sci.fits'
   
